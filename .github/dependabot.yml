@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/authn-service"
+    schedule:
+      interval: "daily"
+    labels:
+      - "triage-required"
+      - "cmboling-test"
+    assignees:
+      - "cmboling"
+    reviewers:
+      - "coolperson101"
+    commit-message:
+      prefix: "pip"

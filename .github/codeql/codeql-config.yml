@@ -8,4 +8,4 @@ queries:
     - uses: ./custom-queries/go
 
 paths-ignore: 
-  - '**/test'
+  - '**/test/**'
